@@ -25,3 +25,15 @@ body {
 p {
 	font-size: 20px;
 }
+
+.botao {
+	margin-top: 30px;
+	padding: 20px 0;
+	width: 40%;
+	background: #FFFF00;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 20px;
+	border: none;
+	cursor: pointer;
+}
