@@ -7,4 +7,10 @@ function calculaDiasVividos() {
 	var diasVividos = idade * 365;
 
 	resposta.textContent = "Você já viveu " + diasVividos + " dias!!!";
+
+	calculaBatimentosCardiacos(diasVividos);
+}
+
+function calculaBatimentosCardiacos(diasVividos) {
+
 }
