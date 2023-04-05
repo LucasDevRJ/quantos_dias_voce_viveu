@@ -52,7 +52,7 @@ input {
 	cursor: pointer;
 }
 
-@media screen and (min-width: 280px) and (max-width: 414px) {
+@media screen and (min-width: 280px) and (max-width: 456px) {
 	.titulo {
 		font-size: 18px;
 	}
@@ -73,3 +73,23 @@ input {
 	}
 }
 
+@media screen and (min-width: 457px) and (max-width: 1280px) {
+	.titulo {
+		font-size: 30px;
+	}
+
+	.texto {
+		font-size: 20px;
+	}
+
+	input {
+		padding: 10px 17px;
+		font-size: 14px;
+	}
+
+	.botao {
+		width: 45%;
+		font-size: 18px;
+		padding: 13px;
+	}
+}
