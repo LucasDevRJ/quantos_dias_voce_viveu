@@ -53,4 +53,8 @@ input {
 	.titulo {
 		font-size: 28px;
 	}
+
+	.botao {
+		width: 40%;
+	}
 }
