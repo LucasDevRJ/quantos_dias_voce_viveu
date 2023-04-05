@@ -26,6 +26,15 @@ p {
 	font-size: 20px;
 }
 
+input {
+	width: 60%;
+	padding: 10px 13px;
+	font-size: 17px;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #FFFF00;
+}
+
 .botao {
 	margin-top: 30px;
 	padding: 20px 0;
