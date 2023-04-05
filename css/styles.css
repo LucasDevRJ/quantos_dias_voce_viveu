@@ -52,12 +52,24 @@ input {
 	cursor: pointer;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (min-width: 280px) and (max-width: 414px) {
 	.titulo {
-		font-size: 22px;
+		font-size: 18px;
+	}
+
+	.texto {
+		font-size: 15px;
+	}
+
+	input {
+		padding: 5px 8px;
+		font-size: 14px;
 	}
 
 	.botao {
-		width: 40%;
+		width: 35%;
+		font-size: 15px;
+		padding: 11px;
 	}
 }
+
