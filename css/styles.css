@@ -21,3 +21,7 @@ body {
 .texto {
 	color: #000000;
 }
+
+p {
+	font-size: 20px;
+}
