@@ -1,9 +1,12 @@
 body {
-	background: linear-gradient(#FF0000 70%, #FFFF00);
+	background: #FFFF00;
+	margin: 0;
+	padding: 0;
 }
 
 .caixa {
-	height: 633px;
+	height: 600px;
+	background: linear-gradient(#FF0000 70%, #FFFF00);
 	display: flex;
 	justify-content: center;
 	align-items: center;
