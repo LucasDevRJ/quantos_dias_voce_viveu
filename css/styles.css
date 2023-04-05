@@ -1,0 +1,12 @@
+.caixa {
+	height: 600px;
+	display: flex;
+	justify-content: center;
+}
+
+.dias-vividos {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
