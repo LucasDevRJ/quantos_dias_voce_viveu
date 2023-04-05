@@ -6,6 +6,8 @@ function calculaDiasVividos() {
 
 	if (isNaN(idade)) {
 		alert("Digite somente números!!!");
+	} else if (idade <= 0 || idade > 100) {
+		alert("Digite uma idade válida!!!");
 	} else {
 		var diasVividos = idade * 365;
 
