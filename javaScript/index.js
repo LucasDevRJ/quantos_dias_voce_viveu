@@ -4,11 +4,15 @@ function calculaDiasVividos() {
 
 	var idade = campoIdade.value;
 
-	var diasVividos = idade * 365;
+	if (isNaN(idade)) {
+		alert("Digite somente números!!!");
+	} else {
+		var diasVividos = idade * 365;
 
-	resposta.textContent = "Você já viveu " + diasVividos + " dias!!!";
+		resposta.textContent = "Você já viveu " + diasVividos + " dias!!!";
 
-	calculaBatimentosCardiacos(diasVividos);
+		calculaBatimentosCardiacos(diasVividos);
+	}
 }
 
 function calculaBatimentosCardiacos(diasVividos) {
