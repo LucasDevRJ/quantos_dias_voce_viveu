@@ -1,6 +1,8 @@
 function calculaDiasVividos() {
 	var campoIdade = document.querySelector("input");
-	var resposta = document.querySelector("h2");
+	var resposta = document.getElementById("resposta-dias");
+
+	console.log(resposta);
 
 	var idade = campoIdade.value;
 
@@ -18,7 +20,7 @@ function calculaDiasVividos() {
 }
 
 function calculaBatimentosCardiacos(diasVividos) {
-	var resposta = document.querySelector("h3");
+	var resposta = document.getElementById("resposta-batimentos");
 
 	//Para sabermos a quantidade de batimentos cardiacos, 
 	//basta multiplicar a duração do dia em horas pela duração em minutos de cada hora
