@@ -1,5 +1,9 @@
+body {
+	background: linear-gradient(red 70%, yellow);
+}
+
 .caixa {
-	height: 600px;
+	height: 633px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
