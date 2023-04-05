@@ -1,5 +1,5 @@
 body {
-	background: linear-gradient(red 70%, yellow);
+	background: linear-gradient(#FF0000 70%, #FFFF00);
 }
 
 .caixa {
@@ -11,8 +11,13 @@ body {
 }
 
 .dias-vividos {
+	color: #FFFFFF;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.texto {
+	color: #000000;
 }
