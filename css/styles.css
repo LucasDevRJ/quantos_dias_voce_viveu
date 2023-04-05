@@ -3,7 +3,7 @@ body {
 }
 
 .caixa {
-	height: 633px;
+	height: 636px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -51,7 +51,7 @@ input {
 
 @media screen and (max-width: 650px) {
 	.titulo {
-		font-size: 28px;
+		font-size: 22px;
 	}
 
 	.botao {
