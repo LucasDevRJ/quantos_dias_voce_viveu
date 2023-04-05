@@ -12,8 +12,12 @@ function calculaDiasVividos() {
 }
 
 function calculaBatimentosCardiacos(diasVividos) {
+	var resposta = document.querySelector("h3");
+
 	//Para sabermos a quantidade de batimentos cardiacos, 
 	//basta multiplicar a duração do dia em horas pela duração em minutos de cada hora
 	// e por final multiplicar pelos batimentos em cada minuto
-	var batimentos = dias * 24 * 60 * 80;
+	var batimentos = diasVividos * 24 * 60 * 80;
+
+	resposta.textContent = "E seu coração já bateu " + batimentos + " vezes! Haja coração!!";
 }
