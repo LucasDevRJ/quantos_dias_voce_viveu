@@ -4,7 +4,7 @@
 
 ## Sobre
 
-Programa que calcula a quantidade de dias que você já viveu, através de sua idade digitada no input. Sem contar que também há verificações da idade digitada.
+Programa que calcula a quantidade de dias que você já viveu, através de sua idade digitada no input. Sem contar que também há verificações da idade digitada. Possuindo uma linda estilização com direito a degradê de cores.
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=%20Finalizado&color=GREEN&style=for-the-badge)
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=Desenvolvedor&message=%20LucasDevRJ&color=GREEN&style=for-the-badge)
